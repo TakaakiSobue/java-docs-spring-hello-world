@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>予約サイト</title>
+    <style type="text/css">
+      .resizeimage img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resizeimage">
+      <img src="../static/top.png" th:src="@{top.png}" alt="top" />
+      <!-- <img src="../static/images/pirate.jpg" width="1000" th:src="@{images/pirate.jpg}"/> -->
+    </div>
+  </body>
+</html>
